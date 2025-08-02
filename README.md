@@ -42,6 +42,58 @@ Report downloads (PDF/CSV)
 Mobile responsive UI
 Notifications/reminders
 🧑‍💻 Author
-Your Name - @yourgithub
+Your Name - Neha
 MIT
+🖥️ App UI Overview (Frontend Output)
+🔹 Dashboard View (HealthTrackerApp.jsx)
+sql
+Copy
+Edit
++----------------------------------------------+
+|        Health Tracker App                    |
++----------------------------------------------+
+
++---------------- Add Entry -------------------+
+| Calories:       [ 2200        ]             |
+| Sleep (hrs):    [ 8           ]             |
+| Workout Type:   [ Running     ]             |
+| Duration (min): [ 45          ]             |
+| Calories Burned:[ 300         ]             |
+| [Add Entry Button]                          |
++----------------------------------------------+
+
+📊 Calories Consumed vs Burned (Bar Chart)
+------------------------------------------
+| Date      | Calories | Burned           |
+|-----------|----------|------------------|
+| Aug 1     | 2200     | 300              |
+| Aug 2     | 2100     | 400              |
+| Aug 3     | 2000     | 350              |
+| ...       | ...      | ...              |
+------------------------------------------
+(Interactive bar chart rendered using Chart.js)
+🗂️ Backend Output (Node Console)
+When the server is running:
+arduino
+Copy
+Edit
+Server running on http://localhost:5000
+On POST request from frontend:
+bash
+Copy
+Edit
+POST /api/logs
+Log saved
+On GET request to fetch logs:
+yaml
+Copy
+Edit
+GET /api/logs
+[ { _id: ..., calories: 2200, sleep: 8, workouts: [Object], date: ... }, ... ]
+🛠️ How to See It Yourself:
+Start MongoDB server locally.
+Run:
+node server.js from /server
+npm start from /client
+Visit http://localhost:3000
 
