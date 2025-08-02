@@ -1,5 +1,7 @@
 # health-tracker-app
 🏥 Health Tracker App
+<img width="1024" height="1536" alt="hta1" src="https://github.com/user-attachments/assets/05be5160-d824-463b-bc52-47cb1f6375a5" />
+<img width="1024" height="1536" alt="hta2" src="https://github.com/user-attachments/assets/a4f30f16-31cb-4620-a2d0-b9d3936e43a8" />
 Track your daily health stats like calories consumed, sleep hours, and workouts. This full-stack web app visualizes your health patterns with beautiful charts to help improve your well-being.
 ⚙️ Tech Stack
 Layer
